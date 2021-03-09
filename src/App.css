@@ -96,8 +96,9 @@ button {
   font-size: 18px;
   font-weight: bold;
   position: relative;
-  left: 80px;
+  left: 20px;
   top: -5px;
+  margin-right: 8px;
 }
 
 .cartContainer {
@@ -123,3 +124,10 @@ button {
     margin-left: 350px;
   }
 } */
+
+.wishContainer {
+  font-size: 35px;
+  margin-left: 10px;
+  position: absolute;
+  top: 0px;
+}

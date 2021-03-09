@@ -72,18 +72,21 @@ const TshirtList = () => {
   return (
     <>
       <div className="container">
-        {data.map((item) => (
-          <>
-            <div className="card">
-              <Tshirt
-                name={item.name}
-                price={item.price}
-                image={item.image}
-                key={item.id}
-              />
-            </div>
-          </>
-        ))}
+        {data.map((item, key) => {
+          return (
+            <>
+              <div className="card">
+                <Tshirt
+                  key={key}
+                  name={item.name}
+                  price={item.price}
+                  image={item.image}
+                  id={item.id}
+                />
+              </div>
+            </>
+          );
+        })}
       </div>
     </>
   );
