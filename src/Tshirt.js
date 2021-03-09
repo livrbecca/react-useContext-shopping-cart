@@ -18,7 +18,9 @@ const Tshirt = (props) => {
       <br />
       <img src={props.image} alt={props.name} />
       <h3>£{props.price.toFixed(2)}</h3>
+      <div className="btndiv">
       <button onClick={addToCart}>Add to cart</button>
+      </div>
       </div>
     </>
   );

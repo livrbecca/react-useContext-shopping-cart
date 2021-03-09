@@ -54,6 +54,20 @@ const TshirtList = () => {
         "https://cdn-img.prettylittlething.com/a/b/a/6/aba6d45df81d4f2b4ec68a35a807505bf439b889_clv0457_1.jpg?imwidth=1024",
       id: 7,
     },
+    {
+      name: "Grey Butterfly T-shirt",
+      price: 10.0,
+      image:
+        "https://cdn-img.prettylittlething.com/2/7/3/9/2739286acfe164c9f44274a34fff57b22f185570_cmq1543_1.jpg?imwidth=1024",
+      id: 8,
+    },
+    {
+      name: "White Crop T-shirt",
+      price: 8.5,
+      image:
+        "https://cdn-img.prettylittlething.com/f/3/2/0/f3206e2d72a9a3e0764a7e2a5c22732443f45d5c_CLX0503_1.JPG?imwidth=1024",
+      id: 9,
+    },
   ];
   return (
     <>

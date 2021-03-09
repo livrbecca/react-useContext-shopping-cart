@@ -9,10 +9,27 @@ body {
   display: flex;
   flex-wrap: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
-  width: 1420px;
+  width: 1120px;
   margin: auto;
+}
+
+/* @media screen and (min-width: 79px) and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    align-content: center;
+  }
+} */
+
+@media screen and (min-width: 79px) and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-content: center;
+    width: 900px;
+    justify-content: space-around;
+    margin-left: 1px;
+  }
 }
 
 .card {
@@ -21,8 +38,8 @@ body {
 }
 
 img {
-  width: 350px;
-  height: 420px;
+  width: 300px;
+  height: 320px;
   border-radius: 2%;
   border: 3px solid rgb(231, 136, 168);
 }
@@ -38,6 +55,21 @@ h1 {
   margin-top: 35px;
 }
 
+@media screen and (min-width: 79px) and (max-width: 700px) {
+  h1 {
+    font-size: 70px;
+    align-self: center;
+    margin-left: 190px;
+    width: 500px;
+  }
+}
+
+/* @media screen and (min-width: 501px) and (max-width: 1000px) {
+  h1 {
+    margin-left: 80px;
+  }
+} */
+
 h2 {
   font-size: 30px;
   text-align: center;
@@ -45,6 +77,7 @@ h2 {
 
 h3 {
   font-size: 25px;
+  text-align: center;
 }
 
 h2:hover,
@@ -57,63 +90,36 @@ button:hover {
 
 button {
   background: rgb(240, 225, 225);
-  border-radius: 20px;
-  height: 55px;
+  border-radius: 10px;
+  height: 50px;
   width: 140px;
   font-size: 18px;
   font-weight: bold;
+  position: relative;
+  left: 80px;
+  top: -5px;
 }
 
 .cartContainer {
   border: 7px double black;
   background: rgb(231, 136, 168);
   width: 250px;
-  height: 80px;
-  position: absolute;
-  right: 90px;
-  top: 70px;
-  font-size: 30px;
-  padding: 30px;
+  height: 50px;
+  margin: auto;
+  font-size: 22px;
+  padding: 25px;
+  margin-top: 50px;
+  text-align: center;
 }
 
-/* @media screen and (min-width: 200px) and (max-width: 830px) {
+@media screen and (min-width: 79px) and (max-width: 700px) {
   .cartContainer {
-    color: black;
-    font-size: 19px;
-    padding: 3px;
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    left: 0;
-    top: 190px;
-    border: 2px solid black;
+    margin-left: 320px;
   }
-} */
+}
 
-/* @media screen and (min-width: 200px) and (max-width: 830px) {
+/* @media screen and (min-width: 501px) and (max-width: 1000px) {
   .cartContainer {
-    color: black;
-    font-size: 19px;
-    padding: 3px;
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    left: 0;
-    top: 190px;
-    border: 2px solid black;
-  }
-} */
-
-/* @media screen and (min-width: 830px) and (max-width: 1600px) {
-  .cartContainer {
-    color: black;
-    font-size: 19px;
-    padding: 3px;
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border: 2px solid black;
+    margin-left: 350px;
   }
 } */
