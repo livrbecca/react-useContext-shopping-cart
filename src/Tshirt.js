@@ -17,7 +17,7 @@ const Tshirt = (props) => {
 
   const addToWishlist = () => {
     const newWish = { name: props.name, price: props.price, key: props.id };
-    console.log("added", newWish.name, "to wishlist. Price: £" + newWish.price);
+
     setWishlist((currentList) => [...currentList, newWish]);
   };
 
