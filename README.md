@@ -4,6 +4,11 @@
 - CSS Media Queries
 
 
+![mediaq1](https://user-images.githubusercontent.com/69110329/110701385-03708180-81e9-11eb-9d1f-6ea0404d0a2c.gif)
+![context1](https://user-images.githubusercontent.com/69110329/110701479-1d11c900-81e9-11eb-84b5-bb25fa1242e3.png)
+![context2](https://user-images.githubusercontent.com/69110329/110701492-1f742300-81e9-11eb-8067-daa48ac7125d.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
