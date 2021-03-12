@@ -1,6 +1,6 @@
 # MINITURE PROJECT TO SHOW USE OF:
 
-- React Hooks: useContext()
+- React Hooks: ```useContext()```
 - CSS Media Queries
 
 
